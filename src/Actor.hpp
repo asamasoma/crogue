@@ -15,4 +15,6 @@ public:
   ~Actor();
   void update();
   void render() const;
+
+  float getDistance(int cx, int cy) const;
 };
